@@ -38,6 +38,7 @@ function Add-TableColumns {
             if (-Not $Wrap) {
                 # https://github.com/spectreconsole/spectre.console/issues/1185
                 # leaving it in as it will probably get fixed, has no effect on output yet.
+# need workaround 
                 $table.Columns[-1].NoWrap = $true
             }
         }
